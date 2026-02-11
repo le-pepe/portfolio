@@ -4,7 +4,7 @@ export default function About() {
             <div
                 className="[&>p]:mb-4
                [&>p>strong]:text-primary
-               dark:[&>p>strong]:text-primary/20
+               dark:[&>p>strong]:text-primary/80
                [&>p>strong]:font-normal
                [&>p>strong]:font-mono
                text-pretty
