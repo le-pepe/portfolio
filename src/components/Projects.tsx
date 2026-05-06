@@ -24,6 +24,19 @@ interface Project {
 export default function Projects() {
     const projects: Project[] = [
         {
+            name: "TodoPoke - Comparador de precios de Pokémon TCG en Chile",
+            url: "//todopoke.cl",
+            screenshot: "/img/todopoke.png",
+            tech: [
+                {name: 'Next.js', icon: <NextJS className={"size-4"}/>},
+                {name: 'PostgreSQL', icon: <PostgreSQL className={"size-4"}/>},
+                {name: 'Tailwind CSS', icon: <Tailwind className={"size-4"}/>},
+                {name: 'Clerk', icon: <Clerk className={"size-4"}/>},
+                {name: 'Shadcn UI', icon: <Shadcn className={"size-4"}/>}
+            ],
+            description: "Este proyecto lo inicié para que los usuarios puedan comparar precios de sellados de Pokémon TCG en Chile, los usuarios pueden ver que tienda tiene el mejor precio y un gráfico de comparación de precios entre tiendas."
+        },
+        {
             name: "Timezone Map - Simple mapa interactivo de zonas horarias",
             url: "//timezonemap.lepepe.dev",
             screenshot: "/img/timezonemap.png",
@@ -44,7 +57,7 @@ export default function Projects() {
             description: "Este sistema muestra en tiempo real la dirección IP pública del usuario junto con información básica de la solicitud, como el User-Agent, idioma del navegador, método HTTP, codificaciones soportadas y tipos MIME aceptados.",
             repo: 'https://github.com/le-pepe/ipconfig'
         },
-        {
+        /*{
             name: "DungeonTap - Juego de RPG web",
             url: "//dungeontap.cc",
             screenshot: "/img/dungeontap.png",
@@ -56,7 +69,7 @@ export default function Projects() {
                 {name: 'Shadcn UI', icon: <Shadcn className={"size-4"}/>}
             ],
             description: "DungeonTap es un juego web RPG, donde puedes explorar mazmorras y cazar monstruos, está en fase beta."
-        },
+        },*/
         {
             name: "Wz Next Season",
             url: '//wznextseason.com',
